@@ -1,38 +1,45 @@
 {
-  "name": "react-mail-client-app",
-  "version": "0.1.0",
+  "name": "react-e2-project",
+  "version": "0.0.1",
   "private": true,
+  "devDependencies": {
+    "enzyme": "^2.8.2",
+    "http-proxy-middleware": "^1.0.5",
+    "react-scripts": "^2.0.1",
+    "react-test-renderer": "^15.6.1"
+  },
   "dependencies": {
-    "@testing-library/jest-dom": "^5.11.10",
-    "@testing-library/react": "^11.2.6",
-    "@testing-library/user-event": "^12.8.3",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-scripts": "4.0.3",
-    "web-vitals": "^1.1.1"
+    "bootstrap": "^4.0.0",
+    "history": "^4.7.2",
+    "jest-junit-reporter": "1.1.0",
+    "json-server": "^0.12.1",
+    "prop-types": "^15.5.10",
+    "react": "^15.5.0",
+    "react-addons-test-utils": "^15.4.1",
+    "react-bootstrap": "^0.32.1",
+    "react-dom": "^15.5.0",
+    "react-redux": "^5.0.7",
+    "react-router": "3.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-router-redux": "^5.0.0-alpha.9",
+    "react-test-renderer": "^15.4.1",
+    "redux": "^3.7.2",
+    "redux-logger": "^3.0.6",
+    "redux-mock-store": "^1.2.1",
+    "redux-saga": "^0.16.0",
+    "redux-thunk": "^2.2.0"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "json-server  --port 8001  --routes ./server/routers.json --watch ./server/db.json | PORT=8000 react-scripts start --disable-host-check",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "pretest": "npm install",
+    "test": "rm -rf ./test-report.xml && CI=true ./node_modules/.bin/react-scripts test --verbose --env=jsdom --testResultsProcessor ./node_modules/jest-junit-reporter"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
