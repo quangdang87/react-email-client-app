@@ -1,0 +1,8 @@
+export const STORE_COMPOSE_MAIL = "STORE_COMPOSE_MAIL";
+
+export const storeComposeMail = (composeData) => {
+  return {
+    type: STORE_COMPOSE_MAIL,
+    payload: composeData,
+  };
+};

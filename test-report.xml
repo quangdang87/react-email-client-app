@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite id="0" name="/Users/quangdang/Documents/Learning/REDUX/react-mail-client-app/src/test/sent.spec.js" errors="0" package="/Users/quangdang/Documents/Learning/REDUX/react-mail-client-app/src/test/sent.spec.js" hostname="localhost" tests="2" failures="0" time="1.216" timestamp="2021-04-07T17:44:32">
+    <properties>
+    </properties>
+    <testcase classname="sent reducers" name="STORE_SENT_MAIL" time="0">
+    </testcase>
+    <testcase classname="sent reducers" name="DELETE_SENT_MAIL" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="1" name="/Users/quangdang/Documents/Learning/REDUX/react-mail-client-app/src/test/compose.spec.js" errors="0" package="/Users/quangdang/Documents/Learning/REDUX/react-mail-client-app/src/test/compose.spec.js" hostname="localhost" tests="2" failures="0" time="1.199" timestamp="2021-04-07T17:44:32">
+    <properties>
+    </properties>
+    <testcase classname="compose reducers" name="returns proper initial state" time="0">
+    </testcase>
+    <testcase classname="compose reducers" name="STORE_COMPOSE_MAIL" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="2" name="/Users/quangdang/Documents/Learning/REDUX/react-mail-client-app/src/test/draft.spec.js" errors="0" package="/Users/quangdang/Documents/Learning/REDUX/react-mail-client-app/src/test/draft.spec.js" hostname="localhost" tests="4" failures="0" time="1.191" timestamp="2021-04-07T17:44:32">
+    <properties>
+    </properties>
+    <testcase classname="draft reducers" name="READ_DRAFT_MAIL" time="0">
+    </testcase>
+    <testcase classname="draft reducers" name="STORE_DRAFT_MAIL" time="0">
+    </testcase>
+    <testcase classname="draft reducers" name="DELETE_DRAFT_MAIL" time="0">
+    </testcase>
+    <testcase classname="draft reducers" name="RESTORE_DRAFT_MAIL" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="3" name="/Users/quangdang/Documents/Learning/REDUX/react-mail-client-app/src/test/inboxMail.spec.js" errors="0" package="/Users/quangdang/Documents/Learning/REDUX/react-mail-client-app/src/test/inboxMail.spec.js" hostname="localhost" tests="2" failures="0" time="0.151" timestamp="2021-04-07T17:44:33">
+    <properties>
+    </properties>
+    <testcase classname="sent reducers" name="returns proper initial state" time="0">
+    </testcase>
+    <testcase classname="sent reducers" name="RECEIVE_INBOX_DATA" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="4" name="/Users/quangdang/Documents/Learning/REDUX/react-mail-client-app/src/test/data.spec.js" errors="0" package="/Users/quangdang/Documents/Learning/REDUX/react-mail-client-app/src/test/data.spec.js" hostname="localhost" tests="3" failures="0" time="0.106" timestamp="2021-04-07T17:44:33">
+    <properties>
+    </properties>
+    <testcase classname="data reducers" name="returns proper initial state" time="0">
+    </testcase>
+    <testcase classname="data reducers" name="RECEIVE_API_DATA" time="0">
+    </testcase>
+    <testcase classname="data reducers" name="DELETE_INBOX_MAIL" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="5" name="/Users/quangdang/Documents/Learning/REDUX/react-mail-client-app/src/test/trash.spec.js" errors="0" package="/Users/quangdang/Documents/Learning/REDUX/react-mail-client-app/src/test/trash.spec.js" hostname="localhost" tests="4" failures="0" time="0.098" timestamp="2021-04-07T17:44:33">
+    <properties>
+    </properties>
+    <testcase classname="sent reducers" name="returns proper initial state" time="0">
+    </testcase>
+    <testcase classname="sent reducers" name="READ_TRASH_MAIL" time="0">
+    </testcase>
+    <testcase classname="sent reducers" name="STORE_TRASH_MAIL" time="0">
+    </testcase>
+    <testcase classname="sent reducers" name="RESTORE_TRASH_MAIL" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="6" name="/Users/quangdang/Documents/Learning/REDUX/react-mail-client-app/src/test/Mail.spec.js" errors="0" package="/Users/quangdang/Documents/Learning/REDUX/react-mail-client-app/src/test/Mail.spec.js" hostname="localhost" tests="7" failures="0" time="2.113" timestamp="2021-04-07T17:44:32">
+    <properties>
+    </properties>
+    <testcase classname="Testing mail component with store store" name="+++ render the connected(SMART) component" time="0">
+    </testcase>
+    <testcase classname="Testing mail component with store store" name="+++ check action on dispatching " time="0">
+    </testcase>
+    <testcase classname="without store" name="submit click event" time="0">
+    </testcase>
+    <testcase classname="without store" name="date convertion" time="0">
+    </testcase>
+    <testcase classname="without store" name="check enable edit button" time="0">
+    </testcase>
+    <testcase classname="without store" name="check empty mails" time="0">
+    </testcase>
+    <testcase classname="without store" name="check mail strucure" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="7" name="/Users/quangdang/Documents/Learning/REDUX/react-mail-client-app/src/test/MailList.spec.js" errors="0" package="/Users/quangdang/Documents/Learning/REDUX/react-mail-client-app/src/test/MailList.spec.js" hostname="localhost" tests="14" failures="2" time="2.285" timestamp="2021-04-07T17:44:32">
+    <properties>
+    </properties>
+    <testcase classname="Testing folder component with store store" name="+++ render the connected(SMART) component" time="0">
+    </testcase>
+    <testcase classname="Testing folder component with store store" name="+++ check action on dispatching " time="0">
+    </testcase>
+    <testcase classname="without store" name="testing the rendering structure" time="0">
+    </testcase>
+    <testcase classname="without store" name="testing delete button" time="0">
+    </testcase>
+    <testcase classname="without store" name="testing pagination" time="0">
+    </testcase>
+    <testcase classname="without store" name="testing search" time="0">
+    </testcase>
+    <testcase classname="without store" name="testing sort" time="0">
+      <failure message="Error: expect(received).toEqual(expected)
+
+Expected value to equal:
+  &quot;sometwo@nowhere.comDeleteold1/2/2018&quot;
+Received:
+  &quot;oldsometwo@nowhere.comDelete1/2/2018&quot;
+    at Object.&lt;anonymous&gt; (/Users/quangdang/Documents/Learning/REDUX/react-mail-client-app/src/test/MailList.spec.js:210:44)
+    at Object.asyncJestTest (/Users/quangdang/Documents/Learning/REDUX/react-mail-client-app/node_modules/jest-jasmine2/build/jasmine_async.js:108:37)
+    at /Users/quangdang/Documents/Learning/REDUX/react-mail-client-app/node_modules/jest-jasmine2/build/queue_runner.js:56:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/quangdang/Documents/Learning/REDUX/react-mail-client-app/node_modules/jest-jasmine2/build/queue_runner.js:43:19)
+    at /Users/quangdang/Documents/Learning/REDUX/react-mail-client-app/node_modules/jest-jasmine2/build/queue_runner.js:87:41
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="without store" name="simulate delete button click" time="0">
+    </testcase>
+    <testcase classname="without store" name="simulate search text change" time="0">
+    </testcase>
+    <testcase classname="without store" name="simulate dropdown change" time="0">
+    </testcase>
+    <testcase classname="without store" name="simulate next button" time="0">
+    </testcase>
+    <testcase classname="without store" name="simulate prev button" time="0">
+    </testcase>
+    <testcase classname="without store" name="active mail state check " time="0">
+    </testcase>
+    <testcase classname="without store" name="time convertion check " time="0">
+      <failure message="Error: expect(received).toEqual(expected)
+
+Expected value to equal:
+  {&quot;date&quot;: &quot;2/22/2018&quot;, &quot;time&quot;: &quot;11:55:43 PM&quot;}
+Received:
+  {&quot;date&quot;: &quot;2/22/2018&quot;, &quot;time&quot;: &quot;6:25:43 PM&quot;}
+
+Difference:
+
+- Expected
++ Received
+
+  Object {
+    &quot;date&quot;: &quot;2/22/2018&quot;,
+-   &quot;time&quot;: &quot;11:55:43 PM&quot;,
++   &quot;time&quot;: &quot;6:25:43 PM&quot;,
+  }
+    at Object.&lt;anonymous&gt; (/Users/quangdang/Documents/Learning/REDUX/react-mail-client-app/src/test/MailList.spec.js:370:18)
+    at Object.asyncJestTest (/Users/quangdang/Documents/Learning/REDUX/react-mail-client-app/node_modules/jest-jasmine2/build/jasmine_async.js:108:37)
+    at /Users/quangdang/Documents/Learning/REDUX/react-mail-client-app/node_modules/jest-jasmine2/build/queue_runner.js:56:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/quangdang/Documents/Learning/REDUX/react-mail-client-app/node_modules/jest-jasmine2/build/queue_runner.js:43:19)
+    at /Users/quangdang/Documents/Learning/REDUX/react-mail-client-app/node_modules/jest-jasmine2/build/queue_runner.js:87:41
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)" type="AssertionError">
+      </failure>
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="8" name="/Users/quangdang/Documents/Learning/REDUX/react-mail-client-app/src/test/Folders.spec.js" errors="0" package="/Users/quangdang/Documents/Learning/REDUX/react-mail-client-app/src/test/Folders.spec.js" hostname="localhost" tests="3" failures="1" time="2.575" timestamp="2021-04-07T17:44:32">
+    <properties>
+    </properties>
+    <testcase classname="Folders Component" name="Number of NavLink" time="0">
+    </testcase>
+    <testcase classname="Folders Component" name="click compose button" time="0">
+      <failure message="Error: expect(jest.fn()).toHaveBeenCalledTimes(1)
+
+Expected mock function to have been called one time, but it was called zero times.
+    at Object.&lt;anonymous&gt; (/Users/quangdang/Documents/Learning/REDUX/react-mail-client-app/src/test/Folders.spec.js:25:17)
+    at Object.asyncJestTest (/Users/quangdang/Documents/Learning/REDUX/react-mail-client-app/node_modules/jest-jasmine2/build/jasmine_async.js:108:37)
+    at /Users/quangdang/Documents/Learning/REDUX/react-mail-client-app/node_modules/jest-jasmine2/build/queue_runner.js:56:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/quangdang/Documents/Learning/REDUX/react-mail-client-app/node_modules/jest-jasmine2/build/queue_runner.js:43:19)
+    at /Users/quangdang/Documents/Learning/REDUX/react-mail-client-app/node_modules/jest-jasmine2/build/queue_runner.js:87:41
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="Testing folder component with store store" name="+++ render the connected(SMART) component" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="9" name="/Users/quangdang/Documents/Learning/REDUX/react-mail-client-app/src/test/ComposeMail.spec.js" errors="0" package="/Users/quangdang/Documents/Learning/REDUX/react-mail-client-app/src/test/ComposeMail.spec.js" hostname="localhost" tests="9" failures="0" time="2.744" timestamp="2021-04-07T17:44:32">
+    <properties>
+    </properties>
+    <testcase classname="Testing folder component with store store" name="+++ check Prop matches with initialState" time="0">
+    </testcase>
+    <testcase classname="Testing folder component with store store" name="+++ check action on dispatching " time="0">
+    </testcase>
+    <testcase classname="ComposeMail Component" name="Number of input boxes" time="0">
+    </testcase>
+    <testcase classname="ComposeMail Component" name="Checking Text area" time="0">
+    </testcase>
+    <testcase classname="ComposeMail Component" name="click compose button" time="0">
+    </testcase>
+    <testcase classname="simulate click event on onSubmit" name="submit click event" time="0">
+    </testcase>
+    <testcase classname="simulate click event on onSubmit" name="submit check error message" time="0">
+    </testcase>
+    <testcase classname="simulate click event on onSubmit" name="submit check valid state" time="0">
+    </testcase>
+    <testcase classname="simulate click event on onSubmit" name="email validation" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+</testsuites>
